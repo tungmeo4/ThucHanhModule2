@@ -15,10 +15,6 @@ public class ContactManager {
     private final Regex regex = new Regex();
     public static final String PATH_NAME = "D:\\ThucHanhModule2\\ThucHanhModule2\\src\\contact.csv";
 
-    public ContactManager(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
-
     public ArrayList<Contact> getContactList() {
         return contacts;
     }
