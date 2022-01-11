@@ -140,7 +140,6 @@ public class ContactManager {
         } else {
             System.out.println("Danh bạ cần tìm:");
             contacts.forEach(System.out::println);
-            System.out.println("--------------------");
         }
     }
 
